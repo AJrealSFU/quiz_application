@@ -1,0 +1,67 @@
+h1{
+    text-decoration: underline;
+    text-align: center;    
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+fieldset{
+    width: 800px;
+    margin: auto;
+}
+.Option{
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 25px;
+    
+}
+.Prev{
+    color: black;
+    display: inline-block;
+    background-color: red;
+    cursor: pointer;
+    block-size: 30px;
+    margin-left: 25%;
+}
+.Next{
+    block-size: 30px;
+    color: black;
+    display: inline-block;
+    background-color: lightgreen;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+p{
+    font-size: x-small;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h6{
+    border: 2px solid black;
+    width: 800px;
+    margin:auto;
+}
+
+h3{
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+    align-self: auto;
+  }
+
+.tableres{
+    display: none;
+}

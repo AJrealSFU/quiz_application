@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="/css/quizApp.css">
+</head>
+<body>
+    <h1>Interactive Quiz</h1>
+    <p>By: Ajax Mok</p>
+    <p>Created on Januaray 27th 2024</p>
+    <fieldset>
+        <h3 class="q", id="99"> o </h3>
+        <table class="tableres", id="res">
+        <tr>
+            <th>Question</th>
+            <th>Your Answer</th>
+            <th>Correct</th>
+        </tr>
+        <tr>
+            <td>What is the Name of This quiz?</td>
+            <td id="ans1"></td>
+            <td>Interactive Quiz</td>
+        </tr>
+        <tr>
+            <td>What is the Name of This Course?</td>
+            <td id="ans2"></td>
+            <td>CMPT 276</td>
+        </tr>
+        <tr>
+            <td>What is the abbervation for Golem, Witch, Wizard Stratgey from COC?</td>
+            <td id="ans3"></td>
+            <td>GoWiWi</td>
+        </tr>
+        <tr>
+            <td>Which character can beat Satrou Gojo from JJK?</td>
+            <td id="ans4"></td>
+            <td>Ryomen Sukuna</td>
+        </tr>
+        <tr>
+            <td>Which of these are not Death Painting Wombs?</td>
+            <td id="ans5"></td>
+            <td>Jogo</td>
+        </tr>
+        <tr>
+            <td>Which of these Shikigami are not from the Ten Shadows Technique?</td>
+            <td id="ans6"></td>
+            <td>Ultimate Chimera</td>
+        </tr>
+        <tr>
+            <td>Would You Lose?</td>
+            <td id="ans7"></td>
+            <td>Nah, I'd Win"</td>
+        </tr>
+        <tr>
+            <td>Which of these are not Complete Domain Expansion?</td>
+            <td id="ans8"></td>
+            <td>Chimera Shadow Garden</td>
+        </tr>
+        <tr>
+            <td>Which of these are not a Cursed Womb?</td>
+            <td id="ans9"></td>
+            <td>Kechizu</td>
+        </tr>
+        <tr>
+            <td>Which of these are not a inherited technique?</td>
+            <td id="ans10"></td>
+            <td>Star Rage</td>
+        </tr>
+        </table>
+        <h2 onclick="answera()" class="Option" id="a"> A </h2>
+        <h2 onclick="answerb()" class="Option" id="b"> B </h2>
+        <h2 onclick="answerc()" class="Option" id="c"> C </h2>
+        <h2 onclick="answerd()"class="Option" id="d"> D </h2>
+        <button class="Prev" id="prev">PREV</button> <button class="Next" id="next">NEXT</button> 
+    </fieldset>
+    <script src="./js/quizLogic.js"></script>
+</body>
+    <footer>
+       <h6>Copyright 2024</h6> 
+    </footer>
+</html>
